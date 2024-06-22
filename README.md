@@ -1,5 +1,5 @@
 # TNDisplay
-The goal of the project is to create a wireless touchscreen display that can be programmed using NodeRed.
+The goal of the project is to create a wireless touchscreen display that can be programmed using NodeRed and used to control HomeAssistant powered SmartHome.
 1|2|3 
 --- | --- | ---
 ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/tndisplay.jpg)|![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/wiring/wiring1.jpg)|![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/wiring/wiring2.jpg)
