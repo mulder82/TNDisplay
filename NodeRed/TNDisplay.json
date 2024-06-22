@@ -1,0 +1,3220 @@
+[
+    {
+        "id": "058350134626a518",
+        "type": "tab",
+        "label": "TNDisplayDemo",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "23daae5d43583853",
+        "type": "group",
+        "z": "058350134626a518",
+        "name": "TNDisplay",
+        "style": {
+            "label": true,
+            "fill": "#d1d1d1",
+            "color": "#000000"
+        },
+        "nodes": [
+            "72acd53358212cd2",
+            "bad9d9dfdc38dc28",
+            "465127a11a275f69",
+            "e8241a58cfa5a4d6",
+            "92bccbec0d8f02a4",
+            "cbac6d6ae67104ad",
+            "e9efc3f9c71ce7a2",
+            "989928ae2df37d14",
+            "63d32947f0bd660c",
+            "5d675502f77439c6",
+            "23c4cad5cfd0d0a9",
+            "56ee813de2bed706",
+            "9e0db0ffd1910d54",
+            "4431d6297ea34ebb",
+            "1b60f7cec1c796bf",
+            "055d8c1b699fc420",
+            "f227e1c4c789e7e5",
+            "53285918866da7ef",
+            "a6045862c22aba1e",
+            "bcd7673614d7bee2",
+            "ddb09a91bd565485",
+            "c658c203312fcb2b",
+            "409a3d5fb81110c4",
+            "d4d2ee19bd409ba9",
+            "c7460f36f5f03708",
+            "4e9d67da852d25a5",
+            "d977694e13ebba0d",
+            "54ff99385d39728b",
+            "c03591b3c7772991",
+            "9a004ea1f9d818c2",
+            "933bb0e9d034a313",
+            "3b10f11590bca83a",
+            "832f248e11e48436",
+            "2731a69f7225ab9c",
+            "5cbbe3d4bf354ac0",
+            "19f9f406adec1c1e",
+            "8445636e656371cf",
+            "d3d9b276401b7fc6",
+            "80b2eac79f38e86f",
+            "67ed26c068daba20",
+            "615f60c84d219701",
+            "ebe1ced7f3548e2f",
+            "4cc14ee35efe7758",
+            "02b7e36035c69350",
+            "b0d6ab1724a5fb8b",
+            "6763c817122e93ea",
+            "d53a3194d199fe97",
+            "637cf2edc7fd846e",
+            "2b066b6883eef7f9",
+            "e3a5a1916e4050e7",
+            "6ad32793c92250e9",
+            "5f22a1be9c0b8003",
+            "be3f1f5e289553b5",
+            "6690ed4d98913c33",
+            "4dafe6e37a9e334b",
+            "e37b53a874bec2a9",
+            "ae5674db37c13fb8",
+            "bf45c6be37a75ed5",
+            "0d451cc596c22d0c",
+            "f42bb67d2a1aac0f",
+            "bee5427a0c2b7bea",
+            "939f2f1c6ce52b36",
+            "8fbed76a75dab554",
+            "c4b10b236a0e7384",
+            "b5473a73c75a4c4c",
+            "6ffa65bbd83a8672",
+            "33fd63030fe9c254",
+            "6c55eca31cbd9f2a",
+            "1a9a063ce229e336",
+            "1e2000ab75523fa5",
+            "93915fe8a4166700",
+            "27a7d1d77d525634"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 812,
+        "h": 1382
+    },
+    {
+        "id": "9215034f16704d56",
+        "type": "group",
+        "z": "058350134626a518",
+        "name": "Menu",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "7bad635f7720fd08",
+            "366b171d68087f0d",
+            "ca2ad7aea0bf5db2",
+            "90b684ddc6cecd8c",
+            "2078fa37d67695bd",
+            "131c68ad1a8fa1ac",
+            "9e3fddf3c36162ca",
+            "47ae6960f841fa05",
+            "32a3c23245f7cada",
+            "ab72c1bbb5770de5",
+            "6a66a2eec8731baf",
+            "66ba09169d8ceff8"
+        ],
+        "x": 14,
+        "y": 1699,
+        "w": 812,
+        "h": 282
+    },
+    {
+        "id": "c1c36a044e741e7c",
+        "type": "group",
+        "z": "058350134626a518",
+        "name": "Back to menu handler",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "5b4de4155f7f86ef",
+            "e12f18cdb6eaf58c",
+            "74022aa8d9547893",
+            "c42380dfb704ebae",
+            "86acf31792089cd5"
+        ],
+        "x": 14,
+        "y": 1419,
+        "w": 812,
+        "h": 82
+    },
+    {
+        "id": "c627231e5235c4bc",
+        "type": "group",
+        "z": "058350134626a518",
+        "name": "Swithes",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "31e0eb16c048efd4",
+            "74b5e6620f6e03c5",
+            "2025656e1cf3dd82",
+            "c4c908bb21a3804a",
+            "d9d54cb288868ec9",
+            "cc09fab64062f9c9",
+            "95011b83bf444e4d",
+            "89e58d24c962e4ad",
+            "a8fc3062a59a5951",
+            "2f96ccb1ad44314d",
+            "0cbe50632c7e2a2f",
+            "3e4ca50560eb0c93"
+        ],
+        "x": 14,
+        "y": 1999,
+        "w": 812,
+        "h": 282
+    },
+    {
+        "id": "d0e06e6b6c84cfe0",
+        "type": "group",
+        "z": "058350134626a518",
+        "name": "Initialize dummy states object",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "71fd28ee3c83825e",
+            "e0bd266a1b4ca4bc"
+        ],
+        "x": 14,
+        "y": 1519,
+        "w": 812,
+        "h": 82
+    },
+    {
+        "id": "5fefab6ccf77a5a0",
+        "type": "group",
+        "z": "058350134626a518",
+        "name": "Lights",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "337e7bdcb9b882c4",
+            "8274af2dc46e9930",
+            "fed18dbc9e53f606",
+            "11759b3b938bd10f",
+            "71350883ba0a6e95",
+            "3cec5f5b727a1058",
+            "9c1b91c840318f02",
+            "2ec03856cd2710e4",
+            "562cbd938e7dd950",
+            "cc13a1331567b091",
+            "d9adc6ad1f8fa290",
+            "1dd09baa2d47c4cc"
+        ],
+        "x": 14,
+        "y": 2299,
+        "w": 812,
+        "h": 282
+    },
+    {
+        "id": "e1b59c07fcef23be",
+        "type": "group",
+        "z": "058350134626a518",
+        "name": "Climate",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "b36bf48cc39db361",
+            "7fea696da82ad1b0",
+            "657594311f37ab99",
+            "4cf8f1f654412971",
+            "86944a0fbc7aa57c",
+            "defc2aa4a3a6dffd",
+            "5d32ee45a61a68d5",
+            "2d126c307885bf21",
+            "ae28e12ce6a6f751"
+        ],
+        "x": 14,
+        "y": 2599,
+        "w": 812,
+        "h": 142
+    },
+    {
+        "id": "3d06d3a0a7110909",
+        "type": "group",
+        "z": "058350134626a518",
+        "name": "Shutters",
+        "style": {
+            "fill": "#d1d1d1",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "4a87a3a49286eb46",
+            "ac47b00a7650a750",
+            "fc323641543f31b7",
+            "bd9a4980ef027af7",
+            "bbb8bc4fcfce4373",
+            "d1dd6af4fddd3a6f",
+            "8422e547d8be51cc",
+            "5bf48c4333e9641b",
+            "bcce3c819ba81549"
+        ],
+        "x": 14,
+        "y": 2759,
+        "w": 812,
+        "h": 142
+    },
+    {
+        "id": "72acd53358212cd2",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "SendCommand",
+        "links": [
+            "bcd7673614d7bee2",
+            "d4d2ee19bd409ba9",
+            "ddb09a91bd565485",
+            "ca2ad7aea0bf5db2",
+            "2025656e1cf3dd82",
+            "fed18dbc9e53f606",
+            "657594311f37ab99",
+            "fc323641543f31b7"
+        ],
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "1b60f7cec1c796bf"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "bad9d9dfdc38dc28",
+        "type": "mqtt in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "",
+        "topic": "TNDisplay/tele/RESULT",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c8c345b8e366ede5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "465127a11a275f69"
+            ]
+        ]
+    },
+    {
+        "id": "465127a11a275f69",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Process",
+        "func": "var rawSerial = msg.payload.SerialReceived;\nif(!rawSerial)\n return null;\n\nfunction rawDataToMsg(rawData)\n{\n   let payload =\n   {\n      RawData:rawData,\n      ReturnCode:\"\",\n      RawValue:\"\"\n   };\n\n   if(rawData.length<2)\n    return {payload:payload};\n   \n   payload.ReturnCode=payload.RawData.substring(0,2);\n   payload.RawValue = payload.RawData.slice(2);\n   return {payload:payload};\n}\n\nrawSerial=rawSerial.toUpperCase().split(\"FFFFFF\").filter((rc)=>!!rc);\nrawSerial.forEach((rs)=>node.send(rawDataToMsg(rs)));\nnode.done();\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "e9efc3f9c71ce7a2"
+            ]
+        ]
+    },
+    {
+        "id": "e8241a58cfa5a4d6",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onStringReceived",
+        "mode": "link",
+        "links": [
+            "70ca51fee5412238",
+            "947ed452e48dee77",
+            "ebe1ced7f3548e2f"
+        ],
+        "x": 710,
+        "y": 340,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "92bccbec0d8f02a4",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Encode",
+        "func": "function strToHex(input)\n{\n    return Buffer.from(input).toString(\"hex\");\n}\n\nvar output = msg.payload.split(\";\").\n                 map(c =>strToHex(c.trim()) + \"FFFFFF\").\n                 join(\"\");\n                 \nreturn [{payload:output}];",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 100,
+        "wires": [
+            [
+                "cbac6d6ae67104ad"
+            ]
+        ],
+        "outputLabels": [
+            "HexCommand"
+        ]
+    },
+    {
+        "id": "cbac6d6ae67104ad",
+        "type": "mqtt out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "",
+        "topic": "TNDisplay/cmnd/serialsend5",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "c8c345b8e366ede5",
+        "x": 680,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e9efc3f9c71ce7a2",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "ReturnCode",
+        "property": "payload.ReturnCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1A",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "66",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "68",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "87",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "70",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "86",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 7,
+        "x": 210,
+        "y": 320,
+        "wires": [
+            [
+                "5f22a1be9c0b8003"
+            ],
+            [
+                "63d32947f0bd660c"
+            ],
+            [],
+            [
+                "56ee813de2bed706"
+            ],
+            [
+                "989928ae2df37d14"
+            ],
+            [
+                "23c4cad5cfd0d0a9"
+            ],
+            [
+                "6ad32793c92250e9"
+            ]
+        ],
+        "outputLabels": [
+            "0x1A > Invalid Variable name or attribute",
+            "0x66 > Current Page Number",
+            "0x68 > Touch Coordinate (sleep) (Ignorujemy)",
+            "0x87 > Auto Wake from Sleep",
+            "0x70 > String Data Enclosed",
+            "0x86 > Auto Entered Sleep Mode",
+            "Otherwise"
+        ]
+    },
+    {
+        "id": "989928ae2df37d14",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "HexToStr",
+        "func": "function hexToStr(str)\n{\n   return str.split(/(\\w\\w)/g)\n   .filter(p => !!p)\n   .map(c => String.fromCharCode(parseInt(c, 16)))\n   .join(\"\");\n}\n\nmsg.payload.DataType=\"String\";\nmsg.payload.Value=hexToStr(msg.payload.RawValue);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "e8241a58cfa5a4d6"
+            ]
+        ]
+    },
+    {
+        "id": "63d32947f0bd660c",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "current_page",
+        "func": "var currentPage = parseInt(msg.payload.RawValue,16);\nvar oldPage = flow.get(\"current_page\");\n\nif(currentPage!=oldPage)\n{\n    flow.set(\"current_page\",currentPage);\n    if(oldPage!=-1)\n    {\n    return{payload:{\"current_page\":currentPage}};\n    }\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 260,
+        "wires": [
+            [
+                "5d675502f77439c6"
+            ]
+        ]
+    },
+    {
+        "id": "5d675502f77439c6",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onCurrentPageChanged",
+        "mode": "link",
+        "links": [
+            "7bc2ce7cfb3eb948",
+            "67ed26c068daba20"
+        ],
+        "x": 690,
+        "y": 260,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "23c4cad5cfd0d0a9",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "sleep_mode=T",
+        "func": "flow.set(\"sleep_mode\",true);\nreturn {payload:\"onSleep\"};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 380,
+        "wires": [
+            [
+                "4431d6297ea34ebb"
+            ]
+        ]
+    },
+    {
+        "id": "56ee813de2bed706",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "sleep_mode=F",
+        "func": "flow.set(\"sleep_mode\",false);\nreturn {payload:\"onWake\"};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 300,
+        "wires": [
+            [
+                "9e0db0ffd1910d54"
+            ]
+        ]
+    },
+    {
+        "id": "9e0db0ffd1910d54",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onWake",
+        "mode": "link",
+        "links": [
+            "c7460f36f5f03708",
+            "adfcdc4f60942fe2"
+        ],
+        "x": 740,
+        "y": 300,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "4431d6297ea34ebb",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onSleep",
+        "mode": "link",
+        "links": [
+            "d3d9b276401b7fc6"
+        ],
+        "x": 740,
+        "y": 380,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "1b60f7cec1c796bf",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Process",
+        "func": "const SLEEP_WHITELIST = [\"get \",\"print \",\"printh \",\"wup=\",\"sleep=\"];\nconst SLEEP_CMND = \"sleep=1\";\n//Auto Entered Sleep Mode\t0x86 0xFF 0xFF 0xFF\nconst SLEEP_MSG = {payload:{SerialReceived:\"86FFFFFF\"}};\nconst AWAKE_CMND = \"sleep=0\";\n//Auto Wake from Sleep\t0x87 0xFF 0xFF 0xFF\nconst AWAKE_MSG = {payload:{SerialReceived:\"87FFFFFF\"}};\nconst PAGE_CMND = \"page \";\nconst SENDME_CMND = \"sendme\";\n\nvar currentSleepMode = flow.get(\"sleep_mode\");\nvar currentPage = flow.get(\"current_page\");\n\nvar inputCommands = msg.payload.split(\";\");\nvar outputCommands=[];\nvar outputMessages=[];\n\ninputCommands.forEach((command)=>\n{\n  command=command.trim();\n  \n  if(command==SLEEP_CMND)\n  {\n    currentSleepMode=true;\n    outputMessages.push(SLEEP_MSG);\n  }\n\n  if(command==AWAKE_CMND)\n  {\n    currentSleepMode=false;\n    outputMessages.push(AWAKE_MSG);\n  }\n\n  if(currentSleepMode)\n  {\n    if(SLEEP_WHITELIST.some((wlc)=>command.startsWith(wlc)))\n    {\n      outputCommands.push(command);\n    }\n  }\n  else\n  {\n    if(command.startsWith(PAGE_CMND))\n    {\n      let newPage = command.substring(PAGE_CMND.length);\n      if(newPage!=currentPage)\n      {\n        outputCommands.push(command);\n        outputCommands.push(SENDME_CMND);\n        currentPage=newPage;\n      }\n    }\n    else\n    {\n      outputCommands.push(command);\n    }\n  }\n});\n\noutputCommands=outputCommands.length==0?null:{payload:outputCommands.join(\";\")};\nreturn[outputCommands,outputMessages];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 100,
+        "wires": [
+            [
+                "c4b10b236a0e7384",
+                "92bccbec0d8f02a4"
+            ],
+            [
+                "465127a11a275f69"
+            ]
+        ]
+    },
+    {
+        "id": "055d8c1b699fc420",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Wake",
+        "links": [
+            "939e9ab52ff43826",
+            "b4f0035b68f24e80",
+            "366ebc9c8e84fe19",
+            "cab2851853bf980e",
+            "e78602ba2a844410",
+            "386d69b88ff1bfc3",
+            "93915fe8a4166700"
+        ],
+        "x": 90,
+        "y": 600,
+        "wires": [
+            [
+                "5cbbe3d4bf354ac0",
+                "f227e1c4c789e7e5"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "f227e1c4c789e7e5",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Process",
+        "func": "var sleep_mode = flow.get(\"sleep_mode\");\n\nif(!sleep_mode)\n return null;\n\nreturn {payload:\"sleep=0\"};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 600,
+        "wires": [
+            [
+                "ddb09a91bd565485"
+            ]
+        ]
+    },
+    {
+        "id": "53285918866da7ef",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Initialize",
+        "links": [
+            "832f248e11e48436"
+        ],
+        "x": 90,
+        "y": 520,
+        "wires": [
+            [
+                "2731a69f7225ab9c",
+                "a6045862c22aba1e"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "a6045862c22aba1e",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Process",
+        "func": "flow.set(\"current_page\", -1);\nflow.set(\"sleep_mode\", false);\n\nvar display_mode=flow.get(\"display_mode\");\nif(!display_mode)\n{\n    //Initial screen \"menu\"\n    flow.set(\"display_mode\",\"menu\");\n}\n\n//Initialization commands:\n//sleep=0 -> Exit sleep mode\n//thsp=10 -> Sets no-touch-then-sleep timer to 10 seconds\n//thup=1 -> Wake on touch\n//sendme -> send current page id to first update display\nmsg.payload=\"sleep=0; thsp=10; thup=1; sendme\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 520,
+        "wires": [
+            [
+                "bcd7673614d7bee2"
+            ]
+        ]
+    },
+    {
+        "id": "bcd7673614d7bee2",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "SendCommand",
+        "mode": "link",
+        "links": [
+            "72acd53358212cd2"
+        ],
+        "x": 720,
+        "y": 520,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "ddb09a91bd565485",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "SendCommand",
+        "mode": "link",
+        "links": [
+            "72acd53358212cd2"
+        ],
+        "x": 720,
+        "y": 600,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "c658c203312fcb2b",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Sleep",
+        "links": [
+            "4a08594510d98be0"
+        ],
+        "x": 90,
+        "y": 680,
+        "wires": [
+            [
+                "8445636e656371cf",
+                "409a3d5fb81110c4"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "409a3d5fb81110c4",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Process",
+        "func": "var sleep_mode = flow.get(\"sleep_mode\");\n\nif(sleep_mode)\n return null;\n\nreturn {payload:\"sleep=1\"};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 680,
+        "wires": [
+            [
+                "d4d2ee19bd409ba9"
+            ]
+        ]
+    },
+    {
+        "id": "d4d2ee19bd409ba9",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "SendCommand",
+        "mode": "link",
+        "links": [
+            "72acd53358212cd2"
+        ],
+        "x": 720,
+        "y": 680,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "c7460f36f5f03708",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onWake",
+        "links": [
+            "9e0db0ffd1910d54"
+        ],
+        "x": 100,
+        "y": 1200,
+        "wires": [
+            [
+                "19f9f406adec1c1e",
+                "4e9d67da852d25a5"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "4e9d67da852d25a5",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "UpdateDisplay",
+        "mode": "link",
+        "links": [
+            "d977694e13ebba0d"
+        ],
+        "x": 720,
+        "y": 1200,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "d977694e13ebba0d",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "UpdateDisplay",
+        "links": [
+            "27a7d1d77d525634",
+            "4e9d67da852d25a5",
+            "66ba09169d8ceff8",
+            "c42380dfb704ebae",
+            "0419664ffabdc98d",
+            "a8fc3062a59a5951",
+            "562cbd938e7dd950",
+            "ae28e12ce6a6f751",
+            "bcce3c819ba81549"
+        ],
+        "x": 120,
+        "y": 760,
+        "wires": [
+            [
+                "54ff99385d39728b",
+                "c03591b3c7772991"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "54ff99385d39728b",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "UpdateDisplay",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 720,
+        "wires": [
+            [
+                "bf45c6be37a75ed5"
+            ]
+        ]
+    },
+    {
+        "id": "c03591b3c7772991",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onUpdateDisplay",
+        "mode": "link",
+        "links": [
+            "7bad635f7720fd08",
+            "31e0eb16c048efd4",
+            "337e7bdcb9b882c4",
+            "b36bf48cc39db361",
+            "4a87a3a49286eb46"
+        ],
+        "x": 710,
+        "y": 760,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "9a004ea1f9d818c2",
+        "type": "mqtt in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "",
+        "topic": "TNDisplay/tele/LWT",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c8c345b8e366ede5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 1280,
+        "wires": [
+            [
+                "6763c817122e93ea",
+                "933bb0e9d034a313"
+            ]
+        ]
+    },
+    {
+        "id": "933bb0e9d034a313",
+        "type": "delay",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 1320,
+        "wires": [
+            [
+                "3b10f11590bca83a"
+            ]
+        ]
+    },
+    {
+        "id": "3b10f11590bca83a",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Online?",
+        "func": "if(msg.payload==\"Online\")\n{\n    return msg;\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1320,
+        "wires": [
+            [
+                "832f248e11e48436"
+            ]
+        ]
+    },
+    {
+        "id": "832f248e11e48436",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Initialize",
+        "mode": "link",
+        "links": [
+            "53285918866da7ef"
+        ],
+        "x": 740,
+        "y": 1320,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "2731a69f7225ab9c",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Initialize",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 480,
+        "wires": [
+            [
+                "be3f1f5e289553b5"
+            ]
+        ]
+    },
+    {
+        "id": "5cbbe3d4bf354ac0",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Wake",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 560,
+        "wires": [
+            [
+                "6690ed4d98913c33"
+            ]
+        ]
+    },
+    {
+        "id": "19f9f406adec1c1e",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "onWake",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1160,
+        "wires": [
+            [
+                "4dafe6e37a9e334b"
+            ]
+        ]
+    },
+    {
+        "id": "8445636e656371cf",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Sleep",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 640,
+        "wires": [
+            [
+                "e37b53a874bec2a9"
+            ]
+        ]
+    },
+    {
+        "id": "d3d9b276401b7fc6",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onSleep",
+        "links": [
+            "4431d6297ea34ebb"
+        ],
+        "x": 100,
+        "y": 960,
+        "wires": [
+            [
+                "80b2eac79f38e86f"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "80b2eac79f38e86f",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "onSleep",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 960,
+        "wires": [
+            [
+                "ae5674db37c13fb8"
+            ]
+        ]
+    },
+    {
+        "id": "67ed26c068daba20",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onCurrentPageChanged",
+        "links": [
+            "5d675502f77439c6"
+        ],
+        "x": 150,
+        "y": 1000,
+        "wires": [
+            [
+                "615f60c84d219701"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "615f60c84d219701",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "onCurrentPageChanged",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1000,
+        "wires": [
+            [
+                "0d451cc596c22d0c"
+            ]
+        ]
+    },
+    {
+        "id": "ebe1ced7f3548e2f",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onStringReceived",
+        "links": [
+            "e8241a58cfa5a4d6"
+        ],
+        "x": 130,
+        "y": 1040,
+        "wires": [
+            [
+                "4cc14ee35efe7758",
+                "02b7e36035c69350"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "4cc14ee35efe7758",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "onStringReceived",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1040,
+        "wires": [
+            [
+                "f42bb67d2a1aac0f"
+            ]
+        ]
+    },
+    {
+        "id": "02b7e36035c69350",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Check",
+        "func": "var value = msg.payload.Value;\n\nif(value.endsWith(\"_click\"))\n{\n    return { payload: msg.payload.Value }; \n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 1120,
+        "wires": [
+            [
+                "b5473a73c75a4c4c",
+                "b0d6ab1724a5fb8b"
+            ]
+        ]
+    },
+    {
+        "id": "b0d6ab1724a5fb8b",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "onClick",
+        "mode": "link",
+        "links": [
+            "90b684ddc6cecd8c",
+            "5b4de4155f7f86ef",
+            "c4c908bb21a3804a",
+            "11759b3b938bd10f",
+            "4cf8f1f654412971",
+            "bd9a4980ef027af7"
+        ],
+        "x": 740,
+        "y": 1120,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "6763c817122e93ea",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "TNDisplay/tele/LWT",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 1280,
+        "wires": [
+            [
+                "bee5427a0c2b7bea"
+            ]
+        ]
+    },
+    {
+        "id": "d53a3194d199fe97",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "links": [
+            "2b066b6883eef7f9",
+            "e3a5a1916e4050e7",
+            "be3f1f5e289553b5",
+            "6690ed4d98913c33",
+            "4dafe6e37a9e334b",
+            "e37b53a874bec2a9",
+            "ae5674db37c13fb8",
+            "bf45c6be37a75ed5",
+            "0d451cc596c22d0c",
+            "f42bb67d2a1aac0f",
+            "311a738f8459808a",
+            "bee5427a0c2b7bea",
+            "39f0f163b9eabd23",
+            "c4b10b236a0e7384",
+            "6ffa65bbd83a8672",
+            "1a9a063ce229e336",
+            "2f89e673089410e0"
+        ],
+        "x": 90,
+        "y": 1360,
+        "wires": [
+            [
+                "637cf2edc7fd846e"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "637cf2edc7fd846e",
+        "type": "debug",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "TNDisplayDebug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "2b066b6883eef7f9",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 220,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "e3a5a1916e4050e7",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 420,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "6ad32793c92250e9",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Unsuported return code",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 420,
+        "wires": [
+            [
+                "e3a5a1916e4050e7"
+            ]
+        ]
+    },
+    {
+        "id": "5f22a1be9c0b8003",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Invalid Variable name or attribute",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 220,
+        "wires": [
+            [
+                "2b066b6883eef7f9"
+            ]
+        ]
+    },
+    {
+        "id": "be3f1f5e289553b5",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 480,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "6690ed4d98913c33",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 560,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "4dafe6e37a9e334b",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 1160,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "e37b53a874bec2a9",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 640,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "ae5674db37c13fb8",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 960,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "bf45c6be37a75ed5",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 720,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "0d451cc596c22d0c",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 1000,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "f42bb67d2a1aac0f",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 1040,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "bee5427a0c2b7bea",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 470,
+        "y": 1280,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "939f2f1c6ce52b36",
+        "type": "comment",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "-------------------------------------------------------------Event handlers -------------------------------------------------------------",
+        "info": "",
+        "x": 420,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "8fbed76a75dab554",
+        "type": "comment",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "---------------------------------------------------------------Triggers -------------------------------------------------------------------",
+        "info": "",
+        "x": 420,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "c4b10b236a0e7384",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 470,
+        "y": 60,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "b5473a73c75a4c4c",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "onClick",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1080,
+        "wires": [
+            [
+                "6ffa65bbd83a8672"
+            ]
+        ]
+    },
+    {
+        "id": "6ffa65bbd83a8672",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 1080,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "33fd63030fe9c254",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "UpdateWakeDisplay",
+        "links": [],
+        "x": 130,
+        "y": 860,
+        "wires": [
+            [
+                "6c55eca31cbd9f2a",
+                "1e2000ab75523fa5"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "6c55eca31cbd9f2a",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "UpdateWakeDisplay",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 800,
+        "wires": [
+            [
+                "1a9a063ce229e336"
+            ]
+        ]
+    },
+    {
+        "id": "1a9a063ce229e336",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Debug",
+        "mode": "link",
+        "links": [
+            "d53a3194d199fe97"
+        ],
+        "x": 610,
+        "y": 800,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": true
+    },
+    {
+        "id": "1e2000ab75523fa5",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Process",
+        "func": "var sleep_mode = flow.get(\"sleep_mode\");\n\nif(sleep_mode)\n{\n    return [msg,null];\n}\nelse\n{\n    return [null,msg];\n}",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 860,
+        "wires": [
+            [
+                "93915fe8a4166700"
+            ],
+            [
+                "27a7d1d77d525634"
+            ]
+        ]
+    },
+    {
+        "id": "93915fe8a4166700",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "Wake",
+        "mode": "link",
+        "links": [
+            "055d8c1b699fc420"
+        ],
+        "x": 750,
+        "y": 840,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "27a7d1d77d525634",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "23daae5d43583853",
+        "name": "UpdateDisplay",
+        "mode": "link",
+        "links": [
+            "d977694e13ebba0d"
+        ],
+        "x": 720,
+        "y": 880,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "cc997e972a45715f",
+        "type": "comment",
+        "z": "058350134626a518",
+        "name": "---------------------------------------------------------------Screens -------------------------------------------------------------------",
+        "info": "",
+        "x": 420,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "7bad635f7720fd08",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "onUpdateDisplay",
+        "links": [
+            "c03591b3c7772991"
+        ],
+        "x": 120,
+        "y": 1740,
+        "wires": [
+            [
+                "131c68ad1a8fa1ac"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "366b171d68087f0d",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "Compose",
+        "func": "var commands=[];\n\ncommands.push(\"page 5\");\ncommands.push(\"PH.pic=67\",'TH.txt=\"MENU\"');\n\ncommands.push(\"P1.pic=48\",'T1.txt=\"Switches\"');\ncommands.push(\"P2.pic=23\",'T2.txt=\"Lights\"');\ncommands.push(\"P3.pic=52\",'T3.txt=\"Climate\"');\ncommands.push(\"P4.pic=45\",'T4.txt=\"Shutters\"');\n\nreturn{payload:commands.join(\";\")};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1740,
+        "wires": [
+            [
+                "ca2ad7aea0bf5db2"
+            ]
+        ]
+    },
+    {
+        "id": "ca2ad7aea0bf5db2",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "SendCommand",
+        "mode": "link",
+        "links": [
+            "72acd53358212cd2"
+        ],
+        "x": 720,
+        "y": 1740,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "90b684ddc6cecd8c",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "onClick",
+        "links": [
+            "b0d6ab1724a5fb8b"
+        ],
+        "x": 90,
+        "y": 1880,
+        "wires": [
+            [
+                "9e3fddf3c36162ca"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "2078fa37d67695bd",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "Event",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1_click",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2_click",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3_click",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "4_click",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 4,
+        "x": 330,
+        "y": 1880,
+        "wires": [
+            [
+                "47ae6960f841fa05"
+            ],
+            [
+                "32a3c23245f7cada"
+            ],
+            [
+                "ab72c1bbb5770de5"
+            ],
+            [
+                "6a66a2eec8731baf"
+            ]
+        ]
+    },
+    {
+        "id": "131c68ad1a8fa1ac",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "Menu?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "menu",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 1740,
+        "wires": [
+            [
+                "366b171d68087f0d"
+            ]
+        ]
+    },
+    {
+        "id": "9e3fddf3c36162ca",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "Menu?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "menu",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 210,
+        "y": 1880,
+        "wires": [
+            [
+                "2078fa37d67695bd"
+            ]
+        ]
+    },
+    {
+        "id": "47ae6960f841fa05",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "Switches",
+        "rules": [
+            {
+                "t": "set",
+                "p": "display_mode",
+                "pt": "flow",
+                "to": "switches",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 1820,
+        "wires": [
+            [
+                "66ba09169d8ceff8"
+            ]
+        ]
+    },
+    {
+        "id": "32a3c23245f7cada",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "Lights",
+        "rules": [
+            {
+                "t": "set",
+                "p": "display_mode",
+                "pt": "flow",
+                "to": "lights",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 1860,
+        "wires": [
+            [
+                "66ba09169d8ceff8"
+            ]
+        ]
+    },
+    {
+        "id": "ab72c1bbb5770de5",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "Climate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "display_mode",
+                "pt": "flow",
+                "to": "climate",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 1900,
+        "wires": [
+            [
+                "66ba09169d8ceff8"
+            ]
+        ]
+    },
+    {
+        "id": "6a66a2eec8731baf",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "Shutters",
+        "rules": [
+            {
+                "t": "set",
+                "p": "display_mode",
+                "pt": "flow",
+                "to": "shutters",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 1940,
+        "wires": [
+            [
+                "66ba09169d8ceff8"
+            ]
+        ]
+    },
+    {
+        "id": "66ba09169d8ceff8",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "9215034f16704d56",
+        "name": "UpdateDisplay",
+        "mode": "link",
+        "links": [
+            "d977694e13ebba0d"
+        ],
+        "x": 720,
+        "y": 1880,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "5b4de4155f7f86ef",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "c1c36a044e741e7c",
+        "name": "onClick",
+        "links": [
+            "b0d6ab1724a5fb8b"
+        ],
+        "x": 90,
+        "y": 1460,
+        "wires": [
+            [
+                "e12f18cdb6eaf58c"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "e12f18cdb6eaf58c",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "c1c36a044e741e7c",
+        "name": "!Menu?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "menu",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 220,
+        "y": 1460,
+        "wires": [
+            [
+                "74022aa8d9547893"
+            ]
+        ]
+    },
+    {
+        "id": "74022aa8d9547893",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "c1c36a044e741e7c",
+        "name": "0_click?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0_click",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 360,
+        "y": 1460,
+        "wires": [
+            [
+                "86acf31792089cd5"
+            ]
+        ]
+    },
+    {
+        "id": "c42380dfb704ebae",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "c1c36a044e741e7c",
+        "name": "UpdateDisplay",
+        "mode": "link",
+        "links": [
+            "d977694e13ebba0d"
+        ],
+        "x": 720,
+        "y": 1460,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "86acf31792089cd5",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "c1c36a044e741e7c",
+        "name": "mode->menu",
+        "func": "flow.set(\"display_mode\",\"menu\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 1460,
+        "wires": [
+            [
+                "c42380dfb704ebae"
+            ]
+        ]
+    },
+    {
+        "id": "31e0eb16c048efd4",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "onUpdateDisplay",
+        "links": [
+            "c03591b3c7772991"
+        ],
+        "x": 120,
+        "y": 2040,
+        "wires": [
+            [
+                "cc09fab64062f9c9"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "74b5e6620f6e03c5",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "Compose",
+        "func": "var commands=[];\nvar states = flow.get(\"states\");\n\ncommands.push(\"page 5\");\ncommands.push(\"PH.pic=15\",'TH.txt=\"Switches\"');\n\ncommands.push(\"P1.pic=\"+(states.switches[0]?\"49\":\"48\"),'T1.txt=\"Switch1\"');\ncommands.push(\"P2.pic=\"+(states.switches[1]?\"49\":\"48\"),'T2.txt=\"Switch2\"');\ncommands.push(\"P3.pic=\"+(states.switches[2]?\"49\":\"48\"),'T3.txt=\"Switch3\"');\ncommands.push(\"P4.pic=\"+(states.switches[3]?\"49\":\"48\"),'T4.txt=\"Switch4\"');\n\nreturn{payload:commands.join(\";\")};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2040,
+        "wires": [
+            [
+                "2025656e1cf3dd82"
+            ]
+        ]
+    },
+    {
+        "id": "2025656e1cf3dd82",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "SendCommand",
+        "mode": "link",
+        "links": [
+            "72acd53358212cd2"
+        ],
+        "x": 720,
+        "y": 2040,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "c4c908bb21a3804a",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "onClick",
+        "links": [
+            "b0d6ab1724a5fb8b"
+        ],
+        "x": 90,
+        "y": 2180,
+        "wires": [
+            [
+                "95011b83bf444e4d"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "d9d54cb288868ec9",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "Event",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1_click",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2_click",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3_click",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "4_click",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 4,
+        "x": 350,
+        "y": 2180,
+        "wires": [
+            [
+                "89e58d24c962e4ad"
+            ],
+            [
+                "2f96ccb1ad44314d"
+            ],
+            [
+                "0cbe50632c7e2a2f"
+            ],
+            [
+                "3e4ca50560eb0c93"
+            ]
+        ]
+    },
+    {
+        "id": "cc09fab64062f9c9",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "Switches?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "switches",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 2040,
+        "wires": [
+            [
+                "74b5e6620f6e03c5"
+            ]
+        ]
+    },
+    {
+        "id": "95011b83bf444e4d",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "Switches?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "switches",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 220,
+        "y": 2180,
+        "wires": [
+            [
+                "d9d54cb288868ec9"
+            ]
+        ]
+    },
+    {
+        "id": "71fd28ee3c83825e",
+        "type": "inject",
+        "z": "058350134626a518",
+        "g": "d0e06e6b6c84cfe0",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 1560,
+        "wires": [
+            [
+                "e0bd266a1b4ca4bc"
+            ]
+        ]
+    },
+    {
+        "id": "e0bd266a1b4ca4bc",
+        "type": "change",
+        "z": "058350134626a518",
+        "g": "d0e06e6b6c84cfe0",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "states",
+                "pt": "flow",
+                "to": "{\"switches\":[false,true,false,false],\"lights\":[true,true,false,false],\"climate\":false,\"shutters\":true}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "89e58d24c962e4ad",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "Toggle1",
+        "func": "var states = flow.get(\"states\");\nstates.switches[0]=!states.switches[0];\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2120,
+        "wires": [
+            [
+                "a8fc3062a59a5951"
+            ]
+        ]
+    },
+    {
+        "id": "a8fc3062a59a5951",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "UpdateDisplay",
+        "mode": "link",
+        "links": [
+            "d977694e13ebba0d"
+        ],
+        "x": 720,
+        "y": 2180,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "2f96ccb1ad44314d",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "Toggle2",
+        "func": "var states = flow.get(\"states\");\nstates.switches[1]=!states.switches[1];\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2160,
+        "wires": [
+            [
+                "a8fc3062a59a5951"
+            ]
+        ]
+    },
+    {
+        "id": "0cbe50632c7e2a2f",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "Toggle3",
+        "func": "var states = flow.get(\"states\");\nstates.switches[2]=!states.switches[2];\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2200,
+        "wires": [
+            [
+                "a8fc3062a59a5951"
+            ]
+        ]
+    },
+    {
+        "id": "3e4ca50560eb0c93",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "c627231e5235c4bc",
+        "name": "Toggle4",
+        "func": "var states = flow.get(\"states\");\nstates.switches[3]=!states.switches[3];\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2240,
+        "wires": [
+            [
+                "a8fc3062a59a5951"
+            ]
+        ]
+    },
+    {
+        "id": "337e7bdcb9b882c4",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "onUpdateDisplay",
+        "links": [
+            "c03591b3c7772991"
+        ],
+        "x": 120,
+        "y": 2340,
+        "wires": [
+            [
+                "3cec5f5b727a1058"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "8274af2dc46e9930",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "Compose",
+        "func": "var commands=[];\nvar states = flow.get(\"states\");\n\ncommands.push(\"page 5\");\ncommands.push(\"PH.pic=15\",'TH.txt=\"Lights\"');\n\ncommands.push(\"P1.pic=\"+(states.lights[0]?\"24\":\"23\"),'T1.txt=\"Light1\"');\ncommands.push(\"P2.pic=\"+(states.lights[1]?\"30\":\"29\"),'T2.txt=\"Light2\"');\ncommands.push(\"P3.pic=\"+(states.lights[2]?\"32\":\"31\"),'T3.txt=\"Light3\"');\ncommands.push(\"P4.pic=\"+(states.lights[3]?\"36\":\"35\"),'T4.txt=\"Light4\"');\n\nreturn{payload:commands.join(\";\")};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2340,
+        "wires": [
+            [
+                "fed18dbc9e53f606"
+            ]
+        ]
+    },
+    {
+        "id": "fed18dbc9e53f606",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "SendCommand",
+        "mode": "link",
+        "links": [
+            "72acd53358212cd2"
+        ],
+        "x": 720,
+        "y": 2340,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "11759b3b938bd10f",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "onClick",
+        "links": [
+            "b0d6ab1724a5fb8b"
+        ],
+        "x": 90,
+        "y": 2480,
+        "wires": [
+            [
+                "9c1b91c840318f02"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "71350883ba0a6e95",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "Event",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1_click",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2_click",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "3_click",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "4_click",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 4,
+        "x": 350,
+        "y": 2480,
+        "wires": [
+            [
+                "2ec03856cd2710e4"
+            ],
+            [
+                "cc13a1331567b091"
+            ],
+            [
+                "d9adc6ad1f8fa290"
+            ],
+            [
+                "1dd09baa2d47c4cc"
+            ]
+        ]
+    },
+    {
+        "id": "3cec5f5b727a1058",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "Lights?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "lights",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 2340,
+        "wires": [
+            [
+                "8274af2dc46e9930"
+            ]
+        ]
+    },
+    {
+        "id": "9c1b91c840318f02",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "Lights?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "lights",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 220,
+        "y": 2480,
+        "wires": [
+            [
+                "71350883ba0a6e95"
+            ]
+        ]
+    },
+    {
+        "id": "2ec03856cd2710e4",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "Toggle1",
+        "func": "var states = flow.get(\"states\");\nstates.lights[0]=!states.lights[0];\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2420,
+        "wires": [
+            [
+                "562cbd938e7dd950"
+            ]
+        ]
+    },
+    {
+        "id": "562cbd938e7dd950",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "UpdateDisplay",
+        "mode": "link",
+        "links": [
+            "d977694e13ebba0d"
+        ],
+        "x": 720,
+        "y": 2480,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "cc13a1331567b091",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "Toggle2",
+        "func": "var states = flow.get(\"states\");\nstates.lights[1]=!states.lights[1];\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2460,
+        "wires": [
+            [
+                "562cbd938e7dd950"
+            ]
+        ]
+    },
+    {
+        "id": "d9adc6ad1f8fa290",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "Toggle3",
+        "func": "var states = flow.get(\"states\");\nstates.lights[2]=!states.lights[2];\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2500,
+        "wires": [
+            [
+                "562cbd938e7dd950"
+            ]
+        ]
+    },
+    {
+        "id": "1dd09baa2d47c4cc",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "5fefab6ccf77a5a0",
+        "name": "Toggle4",
+        "func": "var states = flow.get(\"states\");\nstates.lights[3]=!states.lights[3];\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2540,
+        "wires": [
+            [
+                "562cbd938e7dd950"
+            ]
+        ]
+    },
+    {
+        "id": "b36bf48cc39db361",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "e1b59c07fcef23be",
+        "name": "onUpdateDisplay",
+        "links": [
+            "c03591b3c7772991"
+        ],
+        "x": 120,
+        "y": 2640,
+        "wires": [
+            [
+                "defc2aa4a3a6dffd"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "7fea696da82ad1b0",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "e1b59c07fcef23be",
+        "name": "Compose",
+        "func": "var commands=[];\nvar states = flow.get(\"states\");\n\ncommands.push(\"page 0\");\ncommands.push(\"PH.pic=16\",'TH.txt=\"Climate\"');\n\ncommands.push(\"P1.pic=\"+(states.climate?\"53\":\"52\"),'T1.txt=\"Fan\"');\n\nreturn{payload:commands.join(\";\")};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2640,
+        "wires": [
+            [
+                "657594311f37ab99"
+            ]
+        ]
+    },
+    {
+        "id": "657594311f37ab99",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "e1b59c07fcef23be",
+        "name": "SendCommand",
+        "mode": "link",
+        "links": [
+            "72acd53358212cd2"
+        ],
+        "x": 720,
+        "y": 2640,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "4cf8f1f654412971",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "e1b59c07fcef23be",
+        "name": "onClick",
+        "links": [
+            "b0d6ab1724a5fb8b"
+        ],
+        "x": 90,
+        "y": 2700,
+        "wires": [
+            [
+                "5d32ee45a61a68d5"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "86944a0fbc7aa57c",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "e1b59c07fcef23be",
+        "name": "Event",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1_click",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 350,
+        "y": 2700,
+        "wires": [
+            [
+                "2d126c307885bf21"
+            ]
+        ]
+    },
+    {
+        "id": "defc2aa4a3a6dffd",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "e1b59c07fcef23be",
+        "name": "Climate?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "climate",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 2640,
+        "wires": [
+            [
+                "7fea696da82ad1b0"
+            ]
+        ]
+    },
+    {
+        "id": "5d32ee45a61a68d5",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "e1b59c07fcef23be",
+        "name": "Climate?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "climate",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 220,
+        "y": 2700,
+        "wires": [
+            [
+                "86944a0fbc7aa57c"
+            ]
+        ]
+    },
+    {
+        "id": "2d126c307885bf21",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "e1b59c07fcef23be",
+        "name": "Toggle",
+        "func": "var states = flow.get(\"states\");\nstates.climate=!states.climate;\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 2700,
+        "wires": [
+            [
+                "ae28e12ce6a6f751"
+            ]
+        ]
+    },
+    {
+        "id": "ae28e12ce6a6f751",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "e1b59c07fcef23be",
+        "name": "UpdateDisplay",
+        "mode": "link",
+        "links": [
+            "d977694e13ebba0d"
+        ],
+        "x": 720,
+        "y": 2700,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "4a87a3a49286eb46",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "3d06d3a0a7110909",
+        "name": "onUpdateDisplay",
+        "links": [
+            "c03591b3c7772991"
+        ],
+        "x": 120,
+        "y": 2800,
+        "wires": [
+            [
+                "d1dd6af4fddd3a6f"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "ac47b00a7650a750",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "3d06d3a0a7110909",
+        "name": "Compose",
+        "func": "var commands=[];\nvar states = flow.get(\"states\");\n\ncommands.push(\"page 0\");\ncommands.push(\"PH.pic=68\",'TH.txt=\"Shutters\"');\n\ncommands.push(\"P1.pic=\"+(states.shutters?\"46\":\"45\"));\ncommands.push(\"T1.txt=\"+(states.shutters?'\"Close\"':'\"Open\"'));\n\nreturn{payload:commands.join(\";\")};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 2800,
+        "wires": [
+            [
+                "fc323641543f31b7"
+            ]
+        ]
+    },
+    {
+        "id": "fc323641543f31b7",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "3d06d3a0a7110909",
+        "name": "SendCommand",
+        "mode": "link",
+        "links": [
+            "72acd53358212cd2"
+        ],
+        "x": 720,
+        "y": 2800,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "bd9a4980ef027af7",
+        "type": "link in",
+        "z": "058350134626a518",
+        "g": "3d06d3a0a7110909",
+        "name": "onClick",
+        "links": [
+            "b0d6ab1724a5fb8b"
+        ],
+        "x": 90,
+        "y": 2860,
+        "wires": [
+            [
+                "8422e547d8be51cc"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "bbb8bc4fcfce4373",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "3d06d3a0a7110909",
+        "name": "Event",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1_click",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 350,
+        "y": 2860,
+        "wires": [
+            [
+                "5bf48c4333e9641b"
+            ]
+        ]
+    },
+    {
+        "id": "d1dd6af4fddd3a6f",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "3d06d3a0a7110909",
+        "name": "Shutters?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "shutters",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 2800,
+        "wires": [
+            [
+                "ac47b00a7650a750"
+            ]
+        ]
+    },
+    {
+        "id": "8422e547d8be51cc",
+        "type": "switch",
+        "z": "058350134626a518",
+        "g": "3d06d3a0a7110909",
+        "name": "Shutters?",
+        "property": "display_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "shutters",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 220,
+        "y": 2860,
+        "wires": [
+            [
+                "bbb8bc4fcfce4373"
+            ]
+        ]
+    },
+    {
+        "id": "5bf48c4333e9641b",
+        "type": "function",
+        "z": "058350134626a518",
+        "g": "3d06d3a0a7110909",
+        "name": "Toggle",
+        "func": "var states = flow.get(\"states\");\nstates.shutters=!states.shutters;\nflow.set(\"states\",states);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 2860,
+        "wires": [
+            [
+                "bcce3c819ba81549"
+            ]
+        ]
+    },
+    {
+        "id": "bcce3c819ba81549",
+        "type": "link out",
+        "z": "058350134626a518",
+        "g": "3d06d3a0a7110909",
+        "name": "UpdateDisplay",
+        "mode": "link",
+        "links": [
+            "d977694e13ebba0d"
+        ],
+        "x": 720,
+        "y": 2860,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "c8c345b8e366ede5",
+        "type": "mqtt-broker",
+        "name": "mosquitto-local",
+        "broker": "172.17.0.1",
+        "port": "1883",
+        "clientid": "node-red",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
