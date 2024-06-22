@@ -20,10 +20,14 @@ To upload TFT project using SDCard use [TNDisplay.tft](https://github.com/mulder
 3. Connect display and upload project ([see instructions](https://www.youtube.com/watch?v=xgBq5L0nSWk))
 # Wemos D1 module
 1. Flash ESP module with Tasmota ([see instructions](https://tasmota.github.io/docs/Getting-Started/#needed-software))
-2. Configure Tasmota (set WiFi connection, [MQTT](https://tasmota.github.io/docs/MQTT/#configure-mqtt)) and use following [template]([link](https://tasmota.github.io/docs/Templates/))
+2. Configure Tasmota (set WiFi connection, [MQTT](https://tasmota.github.io/docs/MQTT/#configure-mqtt)) and use following [template](https://tasmota.github.io/docs/Templates/)
 ```console
 {"NAME":"TNDisplay","GPIO":[0,0,320,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}
 ```
+MQTT Settings | Template Settings
+--- | ---
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/Tasmota/mqtt.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/Tasmota/template.JPG)
+
 4. Set Tasmota rule to initialize communication and show informations when connecting/disconnecting wifi and mqtt. Open tasmota console and execute following command:
 ```console
 Rule1 ON System#Init DO serialsend5 64696d3d313030ffffff ENDON ON Wifi#Connected DO serialsend5 706167652036ffffff54312e7478743d2257494649204f4b22ffffff50312e7069633d3237ffffff ENDON ON Wifi#Disconnected DO serialsend5 706167652036ffffff54312e7478743d2257494649204f46464c494e4522ffffff50312e7069633d3531ffffff ENDON ON Mqtt#Connected DO serialsend5 706167652036ffffff54312e7478743d224d515454204f4b22ffffff50312e7069633d3236ffffff ENDON ON Mqtt#Disconnected DO serialsend5 706167652036ffffff54312e7478743d224d515454204f46464c494e4522ffffff50312e7069633d3434ffffff ENDON
@@ -34,48 +38,22 @@ Rule1 1
 ```
 5. Connect ESP module with Nextion display:
 
+> [!WARNING]  
+> Disconnect power supply when making connections!
+
 Nextion PIN | ESP Pin
 --- | ---
 +5V (black) | 5V
 TX (red) | RX
 RX (white) | TX
 GND (yellow) | G
+
+> [!IMPORTANT]  
+> Note the crossover RX TX pins
    
 7. At this stage if you have done everything correctly after restarting tasmota the screen should sequentially show the information "WiFi OK", "MQTT OK"
 
-
-
-
-> [!IMPORTANT]  
-> Place downloaded files under /config/www/immich-slideshow/ directory.
-
-# Immich server configuration
-1. Login into your immich server and create new apiKey
-
-![Screenshot](https://github.com/mulder82/immich-slideshow/raw/master/screenshots/apikey.jpg)
-
-# HomeAssistant configuration
-1. Login into HomeAssistant server and add new custom card to the dashboard with the following configuration parameters:
-
-Parameter name | Required | Default value | Description
---- | --- | ---- | ---
-host | YES | - | URL to immich server
-apikey | YES | - | Immich apiKey
-slideshow_interval | NO | 6 | Time (in seconds) after new image is loaded (minimum 6)
-height| NO | auto | Card height (eg. 500px)
-
-# Preview in chromium browser
-Run chromium using following commands:
-
-1. Linux:
-
-```console
-/usr/bin/chromium-browser --noerrdialogs --disable-infobars --ignore-certificate-errors --allow-running-insecure-content --disable-web-security --user-data-dir=PATH_TO_PROFILE_DIRECORY --kiosk DASHBOARD_URL
-```
-
-2. Windows:
-```console
-start "C:\Program Files\Google\Chrome\Application\" chrome.exe --allow-running-insecure-content --disable-web-security --user-data-dir=PATH_TO_PROFILE_DIRECORY --kiosk DASHBOARD URL
-```
-> [!TIP]
-> Replace PATH_TO_PROFILE_DIRECORY and DASHBOARD_URL with valid values.
+# NodeRed
+1. Import node red [flow file](https://github.com/mulder82/TNDisplay/blob/main/NodeRed/TNDisplay.json) [see instructions](https://nodered.org/docs/user-guide/editor/workspace/import-export)
+2. Check the settings, mainly that the topics in the MQTT nodes match those you set in Tasmota, and that the MQTT configuration node is configured correctly.
+3. At this stage, if you have done everything correctly, after deploy flow in NodeRed the display should show the demo application.
