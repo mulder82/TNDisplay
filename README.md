@@ -20,7 +20,7 @@ To upload TFT project using SDCard use [TNDisplay.tft](https://github.com/mulder
 3. Connect display and upload project ([see instructions](https://www.youtube.com/watch?v=xgBq5L0nSWk))
 # Wemos D1 module
 1. Flash ESP module with Tasmota ([see instructions](https://tasmota.github.io/docs/Getting-Started/#needed-software))
-2. Configure Tasmota (set WiFi connection, [MQTT](https://tasmota.github.io/docs/MQTT/#configure-mqtt)) and use following [template](https://tasmota.github.io/docs/Templates/)
+2. Configure Tasmota (set WiFi connection, [MQTT connection](https://tasmota.github.io/docs/MQTT/#configure-mqtt)) and use following [template](https://tasmota.github.io/docs/Templates/)
 ```console
 {"NAME":"TNDisplay","GPIO":[0,0,320,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}
 ```
