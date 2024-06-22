@@ -54,6 +54,53 @@ GND (yellow) | G
 7. At this stage if you have done everything correctly after restarting tasmota the screen should sequentially show the information "WiFi OK", "MQTT OK"
 
 # NodeRed
-1. Import node red [flow file](https://github.com/mulder82/TNDisplay/blob/main/NodeRed/TNDisplay.json) [see instructions](https://nodered.org/docs/user-guide/editor/workspace/import-export)
+1. Import node red [flow file](https://github.com/mulder82/TNDisplay/blob/main/NodeRed/TNDisplay.json)  [(see instructions)](https://nodered.org/docs/user-guide/editor/workspace/import-export)
 2. Check the settings, mainly that the topics in the MQTT nodes match those you set in Tasmota, and that the MQTT configuration node is configured correctly.
 3. At this stage, if you have done everything correctly, after deploy flow in NodeRed the display should show the demo application.
+
+# Casing
+If you want to print the casing, use the project files included in the [Casing](https://github.com/mulder82/TNDisplay/tree/main/Casing) folder.
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/casing/3dPrint.jpg)
+
+# Available Pages
+
+0 | 1 | 2 | 3 | 4
+--- | --- | --- | --- | ---
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page0.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page1.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page2.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page3.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page4.JPG)
+
+5 | 6 | 7 | 8 | 9
+--- | --- | --- | --- | ---
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page5.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page6.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page7.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page8.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/pages/Page9.JPG)
+
+# Available Icons
+## 50x50px (for use in header (PH.pic))
+
+11 | 12 | 13 | 14 | 15 | 16 | 17 | 66 | 67 | 68 | 69
+-- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/11.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/12.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/13.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/14.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/15.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/16.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/17.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/66.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/67.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/68.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/50/69.png)
+
+## 70x70px (for use as buttons images (P1.pic, P2.pic etc.)
+
+18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27
+-- | -- | -- | -- | -- | -- | -- | -- | -- | --
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/18.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/19.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/20.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/21.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/22.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/23.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/24.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/25.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/26.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/27.png)
+
+28 | 29 | 30 | 31 | 32 | 33 | 34 | 35 | 36 | 37
+-- | -- | -- | -- | -- | -- | -- | -- | -- | --
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/28.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/29.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/30.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/31.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/32.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/33.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/34.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/35.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/36.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/37.png)
+
+38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 | 46 | 47
+-- | -- | -- | -- | -- | -- | -- | -- | -- | --
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/38.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/39.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/40.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/41.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/42.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/43.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/44.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/45.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/46.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/47.png)
+
+48 | 49 | 50 | 51 | 52 | 53 | 54 | 55 | 56 | 57
+-- | -- | -- | -- | -- | -- | -- | -- | -- | --
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/48.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/49.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/50.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/51.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/52.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/53.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/54.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/55.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/56.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/57.jpg)
+
+58 | 59 | 60 | 61 | 62 | 63 | 64 | 65 | 70 | 71
+-- | -- | -- | -- | -- | -- | -- | -- | -- | --
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/58.jpg) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/59.jpg) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/60.jpg) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/61.jpg) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/62.jpg) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/63.jpg) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/64.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/65.jpg) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/70.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/71.png)
+
+72 | 73 | 85 
+-- | -- | -- 
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/72.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/73.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/85.jpg)
