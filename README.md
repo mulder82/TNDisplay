@@ -107,3 +107,6 @@ If you want to print the casing, use the project files included in the [Casing](
 72 | 73 | 85 
 -- | -- | -- 
 ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/72.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/73.png) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/nextion/icons/70/85.jpg)
+
+> [!IMPORTANT]
+> If you have successfully completed your project using this repository, please share photos in the [discussion](https://github.com/mulder82/TNDisplay/discussions/categories/show-and-tell) so that I can show others what can be accomplished. 
