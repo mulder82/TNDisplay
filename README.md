@@ -60,7 +60,10 @@ GND (yellow) | G
 
 # Casing
 If you want to print the casing, use the project files included in the [Casing](https://github.com/mulder82/TNDisplay/tree/main/Casing) folder.
-![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/casing/3dPrint.jpg)
+
+1 | 2
+-- | --
+![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/casing/3dPrint.jpg) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/_media/casing/assembly.jpg)
 
 # Available Pages
 
