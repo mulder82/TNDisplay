@@ -31,15 +31,19 @@ MQTT Settings | Template Settings
 --- | ---
 ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/Tasmota/mqtt.JPG) | ![Screenshot](https://github.com/mulder82/TNDisplay/blob/main/Tasmota/template.JPG)
 
-4. Set Tasmota rule to initialize communication and show informations when connecting/disconnecting wifi and mqtt. Open tasmota console and execute following command:
+3. Change serial baudrate to 9600. Open tasmota console and execute following command:
+```console
+baudrate 9600
+```
+4. Set Tasmota rule to initialize communication and show informations when connecting/disconnecting wifi and mqtt:
 ```console
 Rule1 ON System#Init DO serialsend5 64696d3d313030ffffff ENDON ON Wifi#Connected DO serialsend5 706167652036ffffff54312e7478743d2257494649204f4b22ffffff50312e7069633d3237ffffff ENDON ON Wifi#Disconnected DO serialsend5 706167652036ffffff54312e7478743d2257494649204f46464c494e4522ffffff50312e7069633d3531ffffff ENDON ON Mqtt#Connected DO serialsend5 706167652036ffffff54312e7478743d224d515454204f4b22ffffff50312e7069633d3236ffffff ENDON ON Mqtt#Disconnected DO serialsend5 706167652036ffffff54312e7478743d224d515454204f46464c494e4522ffffff50312e7069633d3434ffffff ENDON
 ```
-4. Enable Rule1 by executing command:
+5. Enable Rule1:
 ```console
 Rule1 1
 ```
-5. Connect ESP module with Nextion display:
+6. Connect ESP module with Nextion display:
 
 > [!WARNING]  
 > Disconnect power supply when making connections!
