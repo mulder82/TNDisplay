@@ -45,7 +45,7 @@ Rule1 1
 ```
 6. Connect ESP module with Nextion display:
 
-> [!WARNING]  
+> [!CAUTION]  
 > Disconnect power supply when making connections!
 
 Nextion PIN | ESP Pin
@@ -58,7 +58,10 @@ GND (yellow) | G
 > [!IMPORTANT]  
 > Note the crossover RX TX pins
    
-7. At this stage if you have done everything correctly after restarting tasmota the screen should sequentially show the information "WiFi OK", "MQTT OK"
+7. At this stage if you have done everything correctly after restarting tasmota the screen should sequentially show the information "WiFi OK", "MQTT OK".
+
+> [!TIP]
+> If the display shows only "TNDisplay" screen with logo and nothing changes check [this issue discussion](https://github.com/mulder82/TNDisplay/issues/1)
 
 # NodeRed
 1. Import node red [flow file](https://github.com/mulder82/TNDisplay/blob/main/NodeRed/TNDisplay.json)  [(see instructions)](https://nodered.org/docs/user-guide/editor/workspace/import-export)
